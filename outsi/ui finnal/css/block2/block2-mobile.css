@@ -1,0 +1,25 @@
+.block2_img{
+    flex-direction:column;
+}
+.block2_img img{
+    margin-left: 20px;
+    margin-top: 150px;
+    opacity:.8;
+}
+.content_b2{
+    top: -50px;
+    left: 40px;
+}
+.content_b2 h1{
+    margin-top:-290px;
+}
+.content_b2 p{
+    font-size: 16px;
+    line-height: 26px;
+    width: 300px;
+}
+.menu-btn:after{
+   top: 40px;
+   left: 90px;
+   
+}

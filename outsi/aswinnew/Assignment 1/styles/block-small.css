@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+  .block {
+      background-repeat: no-repeat;
+  }
+
+  .block figure {
+      width: 65%;
+      margin-bottom: 10px;
+  }
+
+  .block p {
+      text-align: justify;
+  }
+}

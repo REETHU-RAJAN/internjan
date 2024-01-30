@@ -1,0 +1,8 @@
+@media screen and (max-width: 839px) {
+  .footer-1 .footer-right {
+      padding-left: 10px;
+  }
+  .footer-1 .footer-center > div {
+      padding: 0 20px;
+  }
+}

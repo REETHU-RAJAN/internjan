@@ -1,0 +1,92 @@
+
+.container-block3{
+    width: 100%;
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    overflow: hidden;
+}
+.col-block-3-1-container{
+    height: 100%;
+    height: fit-content;
+}
+
+
+.col-block-3-1{
+    
+    background-color: var(--header-color);
+  background-image:  url(/assets/images/publication.png);
+
+  background-position: right top;
+  
+  background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.col-block-3-1 img{
+    margin-left: 50px;
+   
+}
+.col-block-3-1-content{
+    margin-left: 30px;
+    padding-right: 30px;
+}
+.col-block-3-1-p-1{
+    font-family: var( --Avenir-book);
+    color: var(--white-color);
+    font-size: 13px;
+    margin-bottom: -10px;
+    margin-top: 50px;
+    
+}
+.col-block-3-1-p-2{
+    font-family: var(--Avenir-medium);
+    color: var(--white-color);
+    font-size: 23px;
+    line-height: 27px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.col-block-3-1-p-3{
+    font-family:var(--Avenir-medium);
+    color: var(--white-color);
+    font-size: 18px;
+    line-height: 26px;
+}
+.col-block-3-2{
+    margin-left: 50px;
+}
+.col-block-3-3{
+    width: 400px;
+    height: fit-content;
+}
+.col-block-3-3-container{
+    display: flex;
+    align-items: center;
+    background-color: var( --block3-rhh-content);
+}
+.col-block-3-3-content{
+    margin-left: 15px;
+    padding-right: 10px;
+}
+.col-block-3-3-content p{
+    font-family: var(--Avenir-book);
+    font-size: 13px;
+    color:  var(--block3-rhh-content-head);
+}
+.col-block-3-3-content p:nth-child(2){
+    font-family: var(--Avenir-medium);
+    font-size: 18px;
+    color: var(--menu-color);
+}
+.col-block-3-4{
+    width: 400px;
+    margin-top: 30px;
+}
+

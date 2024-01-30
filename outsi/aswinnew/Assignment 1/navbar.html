@@ -1,0 +1,48 @@
+<div class="navbar-right mt-auto d-flex">
+    <div
+        class="d-flex gap-4 gap-lg-5 align-items-end me-4 me-lg-5 flex-column flex-md-row d-none d-md-inline-flex menu-list"
+    >
+        <a href="#block">MENU</a>
+        <a href="#block-1">MENU 1</a>
+        <a href="#block-2">MENU 2</a>
+        <a href="#block-3">MENU 3</a>
+        <a href="#block-3">MENU 4</a>
+        <a href="#">MENU 5</a>
+        <div
+            class="search-icon d-flex justify-content-center align-items-center d-block d-md-none"
+            onclick="openSearch()"
+        >
+            <i class="bi bi-search text-white fs-5"></i>
+        </div>
+        <div
+            class="menu-close d-flex justify-content-center align-items-center"
+            onclick=""
+            id="menu-close"
+        >
+            <i class="bi bi-x-lg fs-5"></i>
+        </div>
+    </div>
+    <div id="hidden"></div>
+    <div class="w-auto position-relative ms-5 d-none d-md-block" id="search-icon">
+        <div
+            class="search-icon d-flex justify-content-center align-items-center position-absolute"
+            onclick="openSearch()"
+        >
+            <i class="bi bi-search text-white fs-5"></i>
+        </div>
+    </div>
+
+    <div class="w-auto position-relative ms-5" id="search-bar">
+        <div class="search-bar position-absolute">
+            <div class="d-flex gap-2">
+                <input type="text" placeholder="Search..." id="searchBar" />
+                <div
+                    class="d-flex justify-content-center align-items-center close-icon"
+                    onclick="closeSearch()"
+                >
+                    <i class="bi bi-x-lg fs-5 text-danger"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

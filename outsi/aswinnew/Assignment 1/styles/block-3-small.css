@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+  .block-4-container,
+  .block-3-container {
+      padding: 70px 30px;
+  }
+  .block-3-container {
+      display: block !important;
+  }
+
+  .block-4-container .inner-container,
+  .block-3-container .inner-container {
+      width: 100%;
+  }
+}

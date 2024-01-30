@@ -1,0 +1,10 @@
+.block1{
+    overflow: hidden;
+ }
+ .content_b1{
+    left:100px;
+
+}
+.main-btn::after{
+    left: 95px;
+}

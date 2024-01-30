@@ -1,0 +1,13 @@
+
+.header{
+    overflow-x: hidden;
+}
+.logo{
+    margin-left:20px;
+}
+.nav-item{
+    margin-right:25px;
+}
+.form-input{
+    width: 200px;
+}

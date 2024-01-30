@@ -1,0 +1,34 @@
+.block {
+    height: 600px;
+    background-image: url("../images/banner_Menu_1920_600.jpg");
+}
+
+.block-right > div {
+    width: 80%;
+}
+
+.block h1 {
+    font-size: 42px;
+    color: var(--color-0072ce);
+    margin-bottom: 50px;
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color-231f20);
+    margin-bottom: 25px;
+    font-family: Avanir-Roman;
+}
+
+@media screen and (max-width: 992px) {
+    .block-right > div {
+        width: 100%;
+    }
+    .block h1 {
+        margin-bottom: 20px;
+    }
+    .block p {
+        margin-bottom: 10px;
+    }
+}

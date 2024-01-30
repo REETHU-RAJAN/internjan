@@ -1,0 +1,95 @@
+.block-3 {
+    background-image: url("../images/1920_808.jpg");
+    height: fit-content;
+    background-size: cover;
+}
+
+.block-3 h1 {
+    font-size: 42px;
+    color: var(--white-color);
+    margin-bottom: 50px;
+}
+
+.block-3-container {
+    padding: 70px 0;
+    background-color: var(--block5_lhside);
+    padding-right: 60px;
+}
+
+.block-3-container .inner-container {
+    width: 85%;
+}
+
+.calender-container {
+    padding-bottom: 35px;
+    border-bottom: 1px solid var(--white-color);
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.container-left .date {
+    width: 100px;
+}
+
+.container-left .date span:nth-child(1) {
+    height: 25px;
+    background-color: var(--block5_mont);
+    font-size: 14px;
+    color: var(--white-color);
+    font-family: Avanir-Black;
+}
+
+.container-left .date span:nth-child(2) {
+    height: 75px;
+    background-color: var(--white-color);
+    font-size: 55px;
+    color: var(--menu-color);
+    font-family: Avanir-Light;
+}
+
+.container-right p {
+    font-size: 21px;
+    line-height: 27px;
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.container-right span {
+    font-size: 13px;
+    color: var(--white-color);
+    font-family: Avanir-Book;
+}
+
+.block-4-container {
+    padding: 70px 0;
+    background-color: var(--block5_mont);
+    padding-left: 60px;
+}
+
+.block-4-container .inner-container {
+    width: 90%;
+}
+
+.block-4-container .data-container {
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--white-color);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.data-container .left-container {
+    min-width: 172px;
+}
+
+.block-3 .right-container p {
+    font-size: 21px;
+    line-height: 27px;
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.block-3 .right-container span {
+    font-size: 13px;
+    color: var(--block5_rh_date);
+    font-family: Avanir-Book;
+}

@@ -1,0 +1,73 @@
+
+.block4{
+    margin-top: 181px;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid var(--block4_body);
+    background: var(--block4_body);
+    position: relative;
+    overflow: hidden;
+}
+.block4_lh{
+    margin-left: 100px;
+    width: 616px;
+    position: relative;
+}
+.block4_lhimg{
+    background: url(../../images/546_354.jpg);
+    background-size: cover;
+    width: 616px;
+    height: 354px;
+}
+.block4lh_content{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 230px;
+    left: 50px;
+    width: 450px;
+}
+.block4lh_content h4{
+    font-family: var(--Avenir-book);
+    color: var( --white-color);
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.block4_bodylh-1para{
+    line-height: 20px;
+    margin-right: 0px;
+}
+.block4_rh{
+    display: flex;
+    position: relative;
+   
+}
+.first_card{
+    margin-left: 80px;
+    border: none;
+    outline: none;
+    width: 208px;
+}
+.first_card img{
+    margin-bottom: 25px;
+}
+.block4_rh_content h4{
+    font-family: var(--Avenir-book);
+    font-size: 13px;
+    color: var( --header-color);
+    margin-bottom: 20px;
+}
+.block4_rh_firstcard_para{
+    font-family: var(--Avenir-medium);
+    font-size: 21px;
+    color: var( --block3-rhh-content-head);
+}
+
+.second_card{
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    width: 208px;
+}
+.second_card img{
+    margin-bottom: 25px;
+}

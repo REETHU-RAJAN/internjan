@@ -1,0 +1,71 @@
+
+.btns{
+    display: flex;
+}
+.main-btn{
+    background: transparent;
+    color: var(--white-color);
+    border: 1px solid var( --header-color);
+    border-right: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 12px;
+    font-family: var( --Avenir-Roman);
+}
+.main-btn::after {
+    content: "";
+    background: url(../../images/view_all_hover.png);
+    position: absolute;
+    top: 223px;
+    left: 89px;
+    border: 1px solid var( --header-color);
+    height: 30px;
+    width: 30px;
+
+}
+.menu-btn{
+    border: none;
+    margin-left: -10px;
+
+}
+.menu-btn:after{
+    position: absolute;
+    left: 95px;
+    top: 415px;
+}
+
+/* block 3 buttons */
+
+   /* block 4 btns */
+   .block4lhbtn{
+    position: absolute;
+    left: 497px;
+    top: 354px;
+    }
+    .block4_rh_firstcard_btn{
+    position:absolute;
+    top: 354px;
+    left: 170px;
+    }
+    .block4_rh_secondcard_btn{
+    position: absolute;
+    top: 354px;
+    left: 427px;
+    }
+    .block4_viewall{
+    position: absolute;
+    top: 461px;
+    left: 620px;
+    }
+    /* block 5 */
+    .block5_viewall{
+        position: absolute;
+        left: 300px;
+        top: 763px;
+    }
+    .block5_viewall::after{
+        position: absolute;
+        top: -1px;
+        left: 66px;
+    }

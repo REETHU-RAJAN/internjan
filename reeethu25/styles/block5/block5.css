@@ -1,0 +1,96 @@
+
+.block-5-container{
+   
+    width: 100%;
+}
+.block-5-content-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url(/assets/images/1920_808.jpg);
+   
+
+}
+.block-5-col-1{
+    width: 50%;
+   
+    background-color: rgb(4,160,160,0.5);
+   
+}
+.block-5-col-2{
+    width: 50%;
+    background-color: rgb(0,46,93,0.7);
+   
+}
+.block-5-content-1{
+    height: 100%;
+    width: 100%;
+   
+}
+.block-5-head-1{
+    font-family: var(--Avenir-medium);
+    font-size: 42px;
+    color: var(--white-color);
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.block-5-content-parent{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.block-5-content{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.calender-parent{
+    width: 9rem;
+    height: fit-content;
+}
+.calender-month{
+    background-color: var(--block5_mont);
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:var(--Avenir--Black) ;
+    font-size: 14px;
+    color: var(--white-color);
+}
+.calender-day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--Aveier-light);
+    font-size: 55px;
+    color: var(--menu-color);
+}
+.block-5-content-right{
+    margin-left: 50px;
+}
+.block-5-p1{
+    font-family: var(--Avenir-medium);
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    color: var(--white-color);
+}
+.block-5-p2{
+    font-family: var(--Avenir-book);
+    font-size: 13px;
+    color: var(--block5_rh_date);
+ 
+}
+.block-5-content img{
+    height: 100px;
+}
+
+#p2{
+    margin-bottom: 0px;
+}

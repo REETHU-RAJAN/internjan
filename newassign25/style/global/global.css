@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+body{
+    overflow-x: hidden !important;
+  }
+html{
+    overflow-x: hidden !important;
+  }
+/* heads */
+.head-block{
+    font-family: var(--Avenir-medium);
+    font-size: 42px;
+    color: var(--head-color);
+  }
+  .head-block1{
+    font-family: var(--Avenir-medium);
+    font-size: 42px;
+    color: var(--menu-color);
+  }
+  .block-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+/* Button */
+
+.button {
+    border: 1px solid var(--header-color);
+    background-color: transparent;
+    color: var(--white-color);
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    font-family: var(--Avenir-Roman);
+}
+
+.button::after {
+    content: url("/assets/images/view_all_hover.png");
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid var(--header-color);
+    margin-left: 10px;
+}
+
+/* Button 1 */
+.button-1 {
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-family: var(--Avenir-Roman);
+}
+
+.button-1::after {
+    content: url("/assets/images/view_all_hover.png");
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--header-color);
+    margin-left: 10px;
+}
+/* Button 2 */
+.button-2 {
+  border: none;
+  background-color: transparent;
+  color: var(--block3-lh-btn);
+  height: 30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  font-family: var(--Avenir-Roman);
+}
+
+.button-2::after {
+  content: url("/assets/images/view_all_hover.png");
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--header-color);
+  background-color: var(--header-color);
+  margin-left: 10px;
+}
+/* Button 3 */
+.button-3 {
+  border: 1px solid var(--menu-color);
+  background-color: transparent;
+  color: var(--menu-color);
+  height: 30px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  font-family: var(--Avenir-Roman);
+}
+
+.button-3::after {
+  content: url("/assets/images/view_all.png");
+  width: 30px;
+  height: 30px;
+  border-left: 1px solid var(--menu-color);
+  margin-left: 10px;
+}
+
+

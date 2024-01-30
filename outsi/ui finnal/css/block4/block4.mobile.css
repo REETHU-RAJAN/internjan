@@ -1,0 +1,65 @@
+.block4{
+    height:1100px;
+}
+.block4_lh{
+    width: auto;
+}
+.block4_lhimg{
+    margin-left:-100px;
+    width: auto;
+}
+.block4lh_content{
+   left: -70px;
+    top: 125px;
+}
+.block4_bodylh-1para{
+    width: 180px;
+}
+.block4lhbtn{
+    top: 354px;
+    right:25px;
+}
+.block4_rh{
+    margin-top: 50px;
+}
+.first_card{
+    margin-left: 10px;
+    width: 220px;
+    max-height: 300px;
+}
+.first_card img{
+    margin-bottom: 15px;
+}
+.block4_rh_content h4{
+    font-size: 10px;
+}
+.block4_rh_content h4{
+    margin-top: 10px;
+}
+.block4_rh_firstcard_para{
+    font-size: 18px;
+    width: 150px;
+}
+.block4_rh_firstcard_btn{
+    top:301px;
+    left: 0px;
+}
+
+.second_card{
+    width: 220px;
+    margin-left:25px;
+    margin-right: 10px;
+    max-height: 300px;
+}
+.second_card img{
+    margin-bottom: 15px;
+}
+.block4_rh_secondcard_btn{
+    top:300px;
+    right: 33px;
+}
+.block4_viewall{
+    top: -50px;
+    left: 0px;
+
+}

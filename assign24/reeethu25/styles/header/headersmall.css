@@ -1,0 +1,42 @@
+/* Media query for medium screens */
+@media (max-width: 1200px) {
+    .logo{
+        margin-left:10px;
+    }
+    .header{
+        width: auto;
+    }
+    .nav-item a{
+        display: none;
+    }
+    .form-input{
+       
+        left:0px;
+        top:-50px;
+    }
+    .search_img{
+        display: none;
+    }
+}
+@media screen and (min-width:975) and (max-width:1200){
+    .nav-item a{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-left:10px;
+    }
+    .form-input{
+        width: 680px;
+    }
+    .nav-item a{
+        margin-left: 25px;
+    }
+    .form-input{
+        top: 0px;
+        left: 0px;
+        height: 4vh;
+        width:auto;
+    }
+}

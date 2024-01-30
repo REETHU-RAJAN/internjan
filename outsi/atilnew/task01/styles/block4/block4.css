@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Anvir-book;
+    src: url(/fonts/Avenir\ Book.ttf);
+}
+@font-face {
+    font-family: Anvir-med;
+    src: url(/fonts/Avenir\ Regular.ttf);
+}
+
+.block-4-container{
+    background-color: var( --background-off);
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 1rem;
+    padding-top: 1px;
+}
+.block-4-content-container{
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-4-content-2-container{
+    margin-right: 50px;
+    width: 232px;
+    height: 354px;
+}
+.block-4-col-1-container{
+    height: 354px;
+    margin-right: 80px;
+    width: 546px;
+}
+.block-4-col-1{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('/assets/images/546_354.jpg');
+    object-fit:cover;
+    height: 354px;
+    width: 546px;
+    display: flex;
+}
+
+.block-4-col-1-content{
+    font-family: Anvir-book;
+    display: flex;
+    height: 95%;
+    align-items: end;
+    color: var(--background-lite);
+    font-size: 21px;
+    padding: 10px;
+}
+.block-4-col-1-content div{
+    display: block;
+}
+.block-4-col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-4-content-2{ 
+    height: 354px;
+    background-color: var(--background-lite);
+   
+}
+.block-4-content-2 p{
+    font-family: Anvir-book;
+    font-size: 13px;
+    color: var( --brand-accent);
+    padding: 10px;
+}
+.block-4-content-2 p:nth-child(3){
+    font-family: Anvir-med;
+    font-size: 21px;
+    color: var( --background-neutral);
+}
+
+

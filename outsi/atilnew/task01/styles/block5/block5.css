@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Anvir-book;
+    src: url(/fonts/Avenir\ Book.ttf);
+}
+@font-face {
+    font-family: Anvir-med;
+    src: url(/fonts/Avenir\ Regular.ttf);
+}
+@font-face {
+    font-family: Anvir-black;
+    src: url(/fonts/Avenir\ Black.ttf);
+}
+@font-face {
+    font-family: Anvir-light;
+    src: url(/fonts/Avenir\ Light.ttf);
+}
+.block-5-container{
+    background: url('/assets/images/1920_808.jpg');
+   background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+.block-5-content-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.block-5-col-1{
+    width: 50%;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+    background-color: var(--menu-3-background);
+}
+.block-5-col-2{
+    width: 50%;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+    background-color: var( --menu-4-background);
+}
+.block-5-content-1{
+    height: 100%;
+    width: 100%;
+   
+}
+.block-5-head-1{
+    font-family: Anvir-med;
+    font-size: 42px;
+    color: var(--background-lite);
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.block-5-content-parent{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+.block-5-content{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--background-lite);
+
+   
+}
+.block-5-content-col-1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3rem;
+    margin-bottom: 2.4rem;
+    border-bottom: 1px solid var(--background-lite);
+}
+.calender-parent{
+    width: 9rem;
+    height: fit-content;
+}
+.calender-month{
+    background-color: var( --menu-4-background);
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Anvir-black;
+    font-size: 14px;
+    color: var(--background-lite);
+}
+.calender-day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: var(--background-lite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Anvir-light;
+    font-size: 55px;
+    color: var(--head-color);
+}
+.block-5-content-right{
+    margin-left: 50px;
+}
+
+.block-5-p1{
+    font-family: Anvir-med;
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    color: var(--background-lite);
+}
+.block-5-p2{
+    font-family: Anvir-book;
+    font-size: 13px;
+    color: var(--background-lite);
+}
+.block-5-content img{
+    height: 112px;
+    width: 172px;
+}
+
+

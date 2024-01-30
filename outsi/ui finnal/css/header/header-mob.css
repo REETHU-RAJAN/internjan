@@ -1,0 +1,19 @@
+.logo{
+    margin-left:10px;
+}
+.header{
+    width: auto;
+}
+.nav-item a{
+    margin-left: 25px;
+}
+.form-input{
+    left: 280px;
+    width:250px;
+}
+.search_img::after{
+    top: 0px;
+    left: 280px;
+    max-width: 42px;
+    max-height: 38px;
+}

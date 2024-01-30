@@ -1,0 +1,133 @@
+/* 
+header{
+    height: 100px;
+    width: 100%;
+    color: var(--color_none);
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    background-color: var(--white-color);
+}
+
+
+
+.logo{
+    margin-left: 70px;
+}
+
+.navbar-nav{
+    margin-right: 50px;
+}
+.nav-item{
+    margin-right: 55px;
+    margin-top:22px;
+}
+.nav-item a{
+    text-transform: uppercase;
+    font-family: var(--Avenir--Black);
+    color: var(--header-color);
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-item a:hover{
+    color: var(--header-color);
+}
+#inactive{
+    display: none;
+}
+
+.form-full{
+    margin-top:22px;
+    position: relative;
+}
+.form-input{
+    width:auto;
+    height:4vh;
+    display: none;
+    margin-left: 10px;
+    position: absolute;
+    right: 55px;
+    top:10px;
+}
+.form-input:focus{
+    border-color:var(--black-color);
+    box-shadow: none;
+}
+.search_img::after{
+    content: "";
+    background:url(../../assets/images/search.png);
+    background-size: cover;
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+    position: absolute;
+    top:10px;
+    right: 20px;
+} */
+
+
+
+.header-section {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white-color);
+    z-index: 9;
+}
+
+.navbar-right {
+    margin-bottom: 20px;
+}
+
+.navbar-right a {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#hidden {
+    width: 40px;
+    display: none;
+}
+
+#search-icon {
+    display: block;
+}
+
+#search-bar {
+    display: none;
+}
+
+.search-icon {
+    width: 45px;
+    height: 45px;
+    background-color: var(--header-color);
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.search-bar {
+    top: 60px;
+    right: 15px;
+}
+
+.search-bar > div input {
+    padding: 3px 5px;
+    width: 130px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #000;
+    font-size: 12px;
+    height: 40px;
+}
+
+.search-bar > div .close-icon {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}

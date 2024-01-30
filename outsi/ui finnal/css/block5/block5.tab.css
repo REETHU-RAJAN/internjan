@@ -1,0 +1,14 @@
+.block5{
+    height:auto;
+    width: 100%;
+}
+.block5_rh{
+    width: 103%;
+    margin-top:0px;
+}
+.block5_viewall::after{
+    left: 73px;
+}
+.block5_viewall_mob{
+    left: 340px;
+}

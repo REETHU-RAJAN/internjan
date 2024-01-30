@@ -1,0 +1,36 @@
+/* Media query for mobile screens */
+    .block-5-content-container{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .block-5-col-1{
+        width: 100%;
+    }
+    .block-5-col-2{
+        width: 100%;
+    }
+    .block-5-content{
+        display: block;
+    }
+    .block-5-content-right{
+        margin-left: 0px;
+        margin-top: 9px;
+    }
+    .block-5-content-parent{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .block-5-content-col-1{
+        display: block;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .block-5-head-1{
+        color: var(--background-lite);
+        margin-left: 0rem;
+        text-align: center;
+        margin-top: 4rem;
+    }

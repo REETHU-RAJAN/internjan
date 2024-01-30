@@ -1,0 +1,17 @@
+/* 1023px */
+    .block-4-content-container{
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .block-4-container{
+        background-color: #f2f2f2;
+        width: 100%;
+        height: fit-content;
+    }
+    .block-4-col-2{
+        margin-top: 5rem;
+        width: 100%;
+    }

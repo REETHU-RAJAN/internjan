@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100&family=Salsa&display=swap");
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    
+}
+
+/* Header Section Starts */
+
+.header-section {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.header-section .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+@media(max-width:760px){
+    .header-section .navbar{
+        display: block;
+    }
+    .header-section .navbar .navbar-left {
+        display: block;
+    }
+    .header-section .navbar .navbar-left figure{
+        display: block;
+    }
+    .header-section .navbar .navbar-right{
+        display: block;
+    }
+    .services .appointment .contact{
+        display: block;
+    }
+}
+
+.header-section .navbar .navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-section .navbar .navbar-left figure {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+.header-section .navbar .navbar-left figure h2 {
+    font-family: "Salsa", cursive;
+}
+
+.header-section .navbar .navbar-right {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-right: 0;
+    gap: 30px;
+    justify-content: space-between;
+}
+.log{
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+.services .appointment .contact {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: space-between;
+    display: inline;
+}
+/* nav section end */
+/* data section start */
+.homedata{
+    text-shadow: #EF233C;
+    text-size-adjust: 200px;
+    color:#189c56
+}
+/* data end */
+/* pet start */
+.container{
+    width: 80%;
+    background-color:white;
+    
+    margin-left: auto; /*as like width of contain respectively*/
+    margin-right: auto;
+}
+.card{
+
+    display: inline-block;
+    width:42%;
+    max-width: 350px;
+    margin:50px auto ;
+
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(162, 244, 10);
+    display: flex;  /*pic and content in same */
+    padding:10px;/* card total space around margin*/
+    gap:20px; /* in between pic and content gap*/
+
+}
+@media(max-width:760px){
+    .card{
+        display: block;
+    }
+    .homedata{
+        width:300px;
+        height:90px;
+        font-size: xx-small;
+        margin-left: 20px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .row{
+        display: block;
+    }
+    
+}
+.row{
+    width:100%;
+    background-color:white;
+    display: flex; /* 2 row in same line*/
+    /* height: 800px; */
+    justify-content: space-around; /* in between col space*/
+    margin-top: 20px;/*in between rows space*/
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card-image{
+width:200px;
+height:200px;
+
+flex:1;/* image size liess combare to content*/
+/* margin:20px; */
+
+
+
+
+}
+.card-content{
+    /* margin-left: 20px; in between pic and content gap */
+
+
+
+    flex:2;
+}
+.card-header{
+    padding: 10px; /*ullil spacing*/
+
+
+    color:#302dd2;
+    border-bottom: 2px solid #969696; /*thazha only border*/
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.card-body{
+    font-family: 'PT Sans', sans-serif; /*outside google font*/
+    line-height:30px ;
+
+    /* this is from gradient background cssgradient grabient copy it */
+
+
+
+}
+.card-image{
+    width:100px;
+    height: 1oopx;
+    
+    transition: width 2s;
+}    
+.card-image:hover{
+    width: 300px;
+}
+
+.btn:hover{
+    background-color: #4158D0;
+}
+.card-footer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between; /*for bottons on 2 side*/
+}
+.btn{
+
+
+    padding: 12px; /* in between botton space*/
+    font-weight: 400;
+    border:1px solid white;
+
+    border-radius: 5px;/* button shape modify*/
+
+}
+.btn-grey{
+
+
+    background-color: grey;
+    color:white
+}
+.btn-warning{
+
+   
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+   
+}
+@media(max-width:990px){
+
+
+    .btn,.card{
+        width:100%;
+         background-color:green
+    }
+}
+#pethd{
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+/* pets end */
+/* service start */
+.card-foot{
+    background-color: #b3bddd;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    border: 1px ;
+    border-color: black;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+#ccd{
+    text-decoration:underline firebrick;
+    font-weight: bolder;
+    
+}
+@media(max-width:760px){
+    .card-foot{
+        display: none;
+    }
+    .rate{
+        display:none;
+    }
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    text-wrap: wrap;
+}
+.foot-end{
+    justify-content: space-between;
+    text-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;}
+
+.input-group{
+    font-size: large;
+    align-items: center;
+}
+    /* service end */
+
+/* our world start */
+#world{
+    align-items: center;
+    justify-content: center;
+    color: #FFCC70;
+    display: flex;
+}
+#video{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* our world end */
+
+/* book start */
+.home-wrapper-1 {
+    background: #fff;
+}
+.appoin{
+    border: 1px solid black;
+    width:500px;
+}
+.rate{
+    border: 1px solid black;
+    width:500px;
+   
+}
+
+/* book end */
+/* rate start */
+.contact-form .submit-section .submit-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+
+.contact-section > div {
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.contact-left iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form .input-group textarea {
+    height: 100px;
+}
+
+.contact-form .submit-section {
+    margin-top: 100px;
+}
+/* rate end */
+
+#appointment{
+    display: flex;
+    justify-content: space-between;
+}
+ /* Footer Section Starts */
+
+ .footer-section-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #b4b9c6;
+}
+
+.footer-left .footer-logo {
+    font-size: 36px;
+}
+
+.footer-section-1 .footer-left  div {
+    gap: 10px;
+}
+
+.footer-section-1 .footer-left .icon-container {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-section-1 .footer-left .icon-container i {
+    font-size: 18px;
+}
+
+.footer-section-1 .footer-center {
+    justify-content: start;
+}
+
+.footer-section-1 .footer-center ul {
+    margin-top: 15px;
+}
+.footer-section-1 .footer-right address {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-section-2 p {
+    font-size: 14px;
+}
+
+/* Footer Section Ends */
+@media(max-width:760px){
+    .card-body{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bcbacc0515.js" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="style/style.css">
+   
+</head>
+<body>
+
+
+     <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="pets">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="Category" class="form-label">Category</label>
+                  <input type="text" class="form-control" id="Category">
+                </div>
+                <div class="mb-3">
+                    <label for="Breed" class="form-label">Breed</label>
+                    <input type="text" class="form-control" id="Breed">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Gender" class="form-label">Gender</label>
+                    <input type="text" class="form-control" id="Gender">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Weight" class="form-label">Weight</label>
+                    <input type="text" class="form-control" id="Weight">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Prize" class="form-label">Prize</label>
+                    <input type="text" class="form-control" id="Prize">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Orderid" class="form-label">Orderid</label>
+                    <input type="text" class="form-control" id="Orderid">
+                  </div>
+                  
+              
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" >Add Pet</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modal end -->
+<!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary.bg-gradient ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <figure >
+            <img
+                src="/images/logo.jpg"
+                alt="Logo"
+                width="60px"
+                id="log"
+            />
+            <h5 class="bg-light">Rodger</h5>
+        </figure></a>
+          <button class="navbar-toggler btn btn-light border border-light " id="petbtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-light" id="petbtn"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+           
+            </ul>
+            
+            <button class="btn btn-outline-light   "  type="submit" ><a href="./index.html" id="petbtn"></a><i class="fa-solid fa-house"></i>Home</button>
+
+              <button class="btn btn-outline-light " type="submit" href="contact"><i class="fa-solid fa-location-dot"></i><a href="#footer"  id="petbtn">Contact</a></button>
+              <button class="btn btn-outline-light" type="submit" href="appointment"><i class="fa-solid fa-calendar-check"></i><a href="./login.html" id="petbtn">Booking</a></button>
+              <button class="btn btn-outline-light" type="submit" href="services"><i class="fa-solid fa-magnifying-glass"></i><a href="#services" id="petbtn">services</a></button>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" ><a href="./addpet.html" id="petbtn"><i class="fa-solid fa-folder-plus"></i>  ADD PETS</a>
+                
+              </button>
+           
+          </div>
+        </div>
+      </nav>
+    <!-- nav end -->
+    <!-- slide start -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="./images/hom1.jpg" class="d-block " id="slideimg" alt="..." width="1500" height="700">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 id="slide">Our World!!!!!
+             
+             </h1>
+              <h3 id="slide2">   " We are Roger Best pet care center in INDIA"</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home2.jpg" class="d-block " id="slideimg" alt="..."width="1500" height="700">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 id="slide">Our World!!!!!
+             
+                </h1>
+                 <h3 id="slide2">   " We are Roger Best pet care center in INDIA"</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/home3.jpg" class="d-block "id="slideimg"  alt="..."width="1500" height="700">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 id="slide">Our World!!!!!
+             
+                </h1>
+                 <h3 id="slide2">   " We are Roger Best pet care center in INDIA"</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- slide end -->
+    <hr >
+    <!-- card start -->
+<div  class="container-fluid">
+  <div class=" bg-primary my-4 rounded-3">
+    <h1 style="font-size: 25px;" class="fw-bold my-2 p-0  text-center overflow-hidden text-light">OUR PETS</h1>
+  </div>
+
+
+
+
+  
+  <div class="row ">
+    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+        <div class="rounded-3 card w-100">
+            <div class="row">
+                <div class="img-container position-relative col-lg-12 col-md-6 col-sm-12">
+                    <img loading="lazy" class="img-fluid" style="height: 300px;"
+                        src="./images/dog.jpg"
+                        alt="">
+                </div>
+                <div class="col-lg-12 col-md-6 col-sm-12 px-4">
+                    <h5 class="overflow-hidden mt-3 m-0 p-0 fw-bold mb-2">German</h5>
+                    <p class="p-0 m-0 mb-2">German: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quis voluptatem! Eius voluptas, quidem deserunt accusantium libero vel ut iure amet saepe architecto ducimus placeat cupiditate et id, pariatur consequatur..</p>
+                    <a href="./login.html" class="btn btn-primary">Book Now</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+        <div class="rounded-3 card w-100">
+            <div class="row">
+                <div class="img-container position-relative col-lg-12 col-md-6 col-sm-12">
+                    <img loading="lazy" class="img-fluid" style="height: 300px;"
+                        src="./images/cat.jpg"
+                        alt="">
+                </div>
+                <div class="col-lg-12 col-md-6 col-sm-12 px-4">
+                    <h5 class="overflow-hidden mt-3 m-0 p-0 fw-bold mb-2">Persian Cat</h5>
+                    <p class="p-0 m-0 mb-2">Persian cat: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit placeat fuga odit voluptates, vitae magnam corporis quia, quaerat sit itaque maiores hic deserunt asperiores blanditiis aperiam tempora. Rem, minima fugiat.</p>
+                    <a href="./login.html" class="btn btn-primary">Book Now</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+        <div class="rounded-3 card w-100">
+            <div class="row">
+                <div class="img-container position-relative col-lg-12 col-md-6 col-sm-12">
+                    <img loading="lazy" class="img-fluid" style="height: 300px;"
+                        src="images/fish.jpg"
+                        alt="">
+                </div>
+                
+                <div class="col-lg-12 col-md-6 col-sm-12 px-4">
+                    <h5 class="overflow-hidden mt-3 m-0 p-0 fw-bold mb-2">Gold Fish</h5>
+                    <p class="p-0 m-0 mb-2">Gold fish: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque id, necessitatibus impedit distinctio debitis nulla fugiat rerum perspiciatis quisquam laudantium enim praesentium dolorum! Architecto alias voluptatem totam ipsam beatae?</p>
+                        <a href="./login.html" class="btn btn-primary">Book Now</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+
+</div>
+   
+    
+    <!-- card end -->
+    <!-- video start -->
+    <div class="card mb-3 container-fluid" id="services" style="max-width: 80%">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <iframe width="315" height="300" id="video" src="https://www.youtube.com/embed/fL4kLWjYYl4" title="Dog: Just because I&#39;m good-natured doesn&#39;t mean I won&#39;t bite! funny dog videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body card-body text-success" style="max-width: 80%">
+            <h5 class="card-title card-title text-danger">Our Services</h5>
+            <p class="card-text overflow-hidden">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body"> <h3 class="bg bg-danger"><center>~~!! " Happiness Starts Here " !!~~</center></h3></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- video end -->
+    <!-- contact part start-->
+    <section id="footer">
+        <footer class="footer bg-dark text-white pt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <h2 class="overflow-hidden ">Contact us</h2>
+                        <p class="text-primary">Address:Rodger Fed <br>
+                           Near Railway Station Gvr <br>Phone: +91 8998989888
+                           </p>
+                        <p class="text-primary">Email: <a href="mailto:rodger@gmail.com" class="text-primary">rodger@gmail.com</a></p>
+                        <p class="text-primary">Phone: +91 8998989888</p>
+                        <div class="social-icons">
+                            <a  href="#" target="_blank" class="text-primary"><i class="fab fs-3 pe-2 fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" class="text-primary"><i class="fab fs-3 pe-2  fa-twitter"></i></a>
+                            <a href="#" target="_blank" class="text-primary"><i class="fab fs-3 pe-2  fa-instagram"></i></a>
+                            <a href="#" target="_blank" class="text-primary"><i class="fab fs-3 pe-2  fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h2 class="overflow-hidden">Location</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31374.166504131023!2d76.0202570488388!3d10.597083864704153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba79461cd1b5745%3A0x96c6ecd0de2d2b4!2sGuruvayur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1704968604169!5m2!1sen!2sin" width="300" height="300" style="border:0;" overflow-hidden allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="50px"></iframe>
+                       
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h2 class="overflow-hidden">Our services</h2>
+                        <ul class="list-unstyled">
+                               
+                            <li><a href="#" class="text-primary">Pet Dentisry</a></li>
+                            <li><a href="#" class="text-primary">Pet Walking</a></li>
+                            <li><a href="#" class="text-primary">Pet Grooming</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center small mt-5 mb-1 ">&copy; 2024 Rodger. All rights reserved.Reethu</div>
+        </footer>
+    </section>
+    <!-- contact part end -->
+
+    
+</body>
+</html>

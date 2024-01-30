@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Avanir-Black";
+    src: url("../fonts/Avenir\ Black.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Avanir-Book";
+    src: url("../fonts/Avenir\ Book.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Avanir-Light";
+    src: url("../fonts/Avenir\ Light.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Avanir-Roman";
+    src: url("../fonts/Avenir-Roman.ttf") format("ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.fs-42 {
+    font-size: 42px;
+}
+
+.lh-50 {
+    line-height: 50;
+}
+
+/* Button */
+
+.button {
+    border: 1px solid var(--color-41b6e6);
+    background-color: transparent;
+    color: var(--color-ffffff);
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    font-family: Avanir-Roman;
+}
+
+.button::after {
+    content: url("../images/view_all_hover.png");
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid var(--color-41b6e6);
+    margin-left: 10px;
+}
+
+/* Button 1 */
+.button-1 {
+    border: none;
+    background-color: transparent;
+    color: var(--color-ffffff);
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-family: Avanir-Roman;
+}
+
+.button-1::after {
+    content: url("../images/view_all_hover.png");
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-41b6e6);
+    margin-left: 20px;
+}
+
+/* Button 2 */
+.button-2 {
+    border: none;
+    background-color: transparent;
+    color: var(--color-808080);
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    font-family: Avanir-Roman;
+}
+
+.button-2::after {
+    content: url("../images/view_all_hover.png");
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-41b6e6);
+    background-color: var(--color-41b6e6);
+    margin-left: 10px;
+}
+
+/* Button 3 */
+.button-3 {
+    border: 1px solid var(--color-0072ce);
+    background-color: transparent;
+    color: var(--color-0072ce);
+    height: 30px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    font-family: Avanir-Roman;
+}
+
+.button-3::after {
+    content: url("../images/view_all.png");
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid var(--color-0072ce);
+    margin-left: 10px;
+}
+
+/* Button 4 */
+.button-4 {
+    border: 1px solid var(--color-ffffff);
+    background-color: transparent;
+    color: var(--color-ffffff);
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    font-family: Avanir-Roman;
+}
+.button-4::after {
+    content: url("../images/view_all_hover.png");
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid var(--color-ffffff);
+    margin-left: 10px;
+}
+

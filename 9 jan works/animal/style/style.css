@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.data {
+    background: url(undefined);
+    
+    margin-left: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background: #1D2951;
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+label {
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 6px 15px;
+    font-weight: 600;
+    background-color: rgb(55, 34, 246);
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(49, 27, 214);
+    color: white;
+    transition: 0.5s;
+}
+
+.side-menu {
+    position: fixed;
+    background: #1D2951;
+    width: 250px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.side-menu center img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 3px solid white;
+}
+
+.side-menu center h2 {
+    color: white;
+}
+
+.side-menu a {
+    display: block;
+    line-height: 60px;
+    transition: 0.5s;
+}
+
+.side-menu a:hover {
+    background: rgb(20, 54, 165);
+    padding-left: 20px;
+}
+
+.side-menu span {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.side-menu i {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+nav .menu-bar {
+    float: right;
+    margin-top: 20px;
+    display: none;
+    margin-right: 20px;
+}
+
+#menu {
+    display: none;
+}
+
+.side-menu .Logout {
+    display: none;
+}
+
+@media (max-width:850px) {
+    .side-menu a span {
+        display: none;
+    }
+
+    .side-menu center {
+        display: none;
+    }
+
+    .side-menu {
+        width: 100px;
+    }
+
+    .side-menu a i {
+        display: block;
+        line-height: 80px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+    }
+
+    .data {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:650px) {
+    .data {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .side-menu {
+        width: 100%;
+        text-align: center;
+        left: 100%;
+        background-color: #4c516d;
+        transition: all 0.5s;
+    }
+
+    .side-menu a i {
+        display: none;
+    }
+
+    .side-menu a span {
+        display: block;
+    }
+
+    .side-menu .Logout {
+        display: block;
+    }
+
+    nav .menu-bar {
+        display: block;
+    }
+}
+
+#menu:checked~.side-menu {
+    left: 0;
+}
+
+
+
+
+body{background-color : #0093E9;
+    height:100vh;
+    margin:0px;
+    background-image : linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+h1{color:white; text-decoration:underline;}
+
+a{color:white;text-decoration: none;
+ }
+
+ .aboutme{
+    min-height:600px ;
+}
+
+.heading{
+   color:white;
+   text-decoration: underline
+
+
+}
+.text-danger{
+    color:red;
+    text-decoration: underline
+
+}
+
+
+.heading-sucess{
+
+    color:green
+}
+
+.hyper{
+    color:red;
+    padding-inline: 1cm;
+}
+a:hover {
+    background-color: yellow;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,400;1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=PT+Sans:ital,wght@1,400;1,700&display=swap');
+
+/* this import if for import font style */
+
+ 
+.container{
+    width: 80%;
+    background-color: beige;
+    border: 1px solid black;
+    margin-left: auto; /*as like width of contain respectively*/
+    margin-right: auto;
+}
+.card{
+
+    width:42%;
+
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(162, 244, 10);
+    display: flex;  /*pic and content in same */
+    padding:10px;/* card total space around margin*/
+    gap:20px; /* in between pic and content gap*/
+
+}
+.row{
+    width:100%;
+    background-color: rgb(239, 239, 151);
+    display: flex; /* 2 row in same line*/
+    /* height: 800px; */
+    justify-content: space-around; /* in between col space*/
+    margin-top: 20px;/*in between rows space*/
+    /* flex-wrap: wrap; */
+
+
+}
+.card-image{
+width:200px;
+height:200px;
+
+flex:1;/* image size liess combare to content*/
+/* margin:20px; */
+
+
+
+
+}
+.card-content{
+    /* margin-left: 20px; in between pic and content gap */
+
+
+
+    flex:2;
+}
+.card-header{
+    padding: 10px; /*ullil spacing*/
+
+
+    color:#302dd2;
+    border-bottom: 2px solid #969696; /*thazha only border*/
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.card-body{
+    font-family: 'PT Sans', sans-serif; /*outside google font*/
+    line-height:30px ;
+
+    /* this is from gradient background cssgradient grabient copy it */
+
+
+
+}
+.card-footer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between; /*for bottons on 2 side*/
+}
+.btn{
+
+
+    padding: 12px; /* in between botton space*/
+    font-weight: 400;
+    border:1px solid white;
+
+    border-radius: 5px;/* button shape modify*/
+
+}
+.btn-grey{
+
+
+    background-color: grey;
+    color:white
+}
+.btn-warning{
+
+    /* background-color: #f2d011;
+    color: white; */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    /* this is from cssgradient in google gradient button  */
+}
+/* sucess:green;
+primary:blue;
+warning:yellow;
+dark:black;
+danger:red; */
+
+
+
+
+
+.btn:hover{
+    background-color: #4158D0;
+} /* perticular button il ethumboo heighlight hover*/
+.nav{
+    padding: 3vh 20vh;
+    color:green;
+}
+
+    @media(max-width:990px){
+
+
+        .btn,.card{
+            width:100%;
+             background-color:green
+        }
+    }
+.card-image{
+    width:100px;
+    height: 1oopx;
+    float:right;
+    
+    transition: width 2s;
+}    
+.card-image:hover{
+    width: 300px;
+}

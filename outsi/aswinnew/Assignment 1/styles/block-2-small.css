@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .block-2-right {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .block-2-right div {
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .block-2 .header-container {
+        top: 130px;
+    }
+    .block-2-right div {
+        gap: 20px;
+    }
+}

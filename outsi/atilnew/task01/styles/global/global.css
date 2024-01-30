@@ -1,0 +1,135 @@
+
+:root {
+  --brand-primary: #0072ce; /* Menu Head */
+  --brand-accent: #41b6e6; /* Slick Dots / Cyan Blue */
+  --text-neutral: #231f20;
+  --background-neutral: #808080;
+  --background-off: #f2f2f2;
+  --menu-3-background: #04a0a0; /* Off Blue used in Menu 3 */
+  --menu-4-background: #002e5d; /* Dark Blue used in Menu 4 */
+  --footer-background-bottom: #f8f8f8; /* Light Grey Footer 2nd Part */
+  --footer-background-top: #404041; /* Grey from Footer Top */
+  --background-lite: #ffffff;
+  --block-3-right-bg: #e6e7e8;
+}
+@font-face {
+  font-family: Anvir;
+  src: url(/fonts/Avenir-Roman.ttf)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  overflow-x: hidden !important;
+}
+html{
+  overflow-x: hidden !important;
+}
+.head-block{
+  font-family: Anvir;
+  font-size: 42px;
+  color: var(--brand-primary);
+}
+.block-heading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.btn-primary {
+  background-color: transparent;
+  color: var(--background-lite);
+  border: var(--brand-accent) 2px solid;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-arrow{
+  background: url('/assets/images/arrow-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn-arrow-blue{
+  background: url('/assets/images/view_all.png');
+}
+.btn-primary span{
+  font-size: 12px;
+  padding: 9px;
+}
+.btn-primary div{
+  width: 30px;
+  height: 32px;
+  border-left: 2px solid var(--brand-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.end-btn{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.end-btn-primary {
+  background-color: transparent;
+  color: var(--background-neutral);
+  border: none;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end-btn-primary span{
+  font-size: 12px;
+  padding: 9px;
+}
+.end-btn-primary div{
+  background: url('/assets/images/arrow-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--brand-accent);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.btn-center span{
+  color: var(--brand-primary) !important;
+}
+
+.btn-primary-white {
+  background-color: transparent;
+  color: var(--background-lite);
+  border: var(--background-lite) 2px solid;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.btn-primary-white div{
+  width: 30px;
+  height: 30px;
+  border-left: 2px solid var(--background-lite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary-white span{
+  font-size: 12px;
+  padding: 9px;
+  color: var(--background-lite)  !important;
+}
+

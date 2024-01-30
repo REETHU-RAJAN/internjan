@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Viewer</title>
+  <style>
+    #imageContainer {
+      text-align: center;
+    }
+
+    #currentImage {
+      max-width: 100%;
+      max-height: 80vh;
+    }
+
+    #nextButton {
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="imageContainer">
+  <img id="currentImage" src="" alt="Image Viewer">
+  <button id="nextButton" onclick="showNextImage()">Next</button>
+</div>
+
+<script>
+  // Array of image URLs
+  const imageUrls = [
+    './IMAGES/dog.jpg',
+    './IMAGES/dog1.jpg',
+    './IMAGES/dog2.jpg',
+    
+  ];
+
+  let currentIndex = 0;
+
+  // Function to show the next image
+  function showNextImage() {
+    currentIndex = (currentIndex + 1) % imageUrls.length;
+    updateImage();
+  }
+
+  // Function to update the image source
+  function updateImage() {
+    const currentImageElement = document.getElementById('currentImage');
+    currentImageElement.src = imageUrls[currentIndex];
+  }
+
+  // Initial image display
+  updateImage();
+</script>
+
+</body>
+</html>

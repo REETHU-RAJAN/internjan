@@ -1,0 +1,51 @@
+.mainblock_section{
+    position: relative;
+    top: 0px;
+    height: 600px;
+}
+.block2{
+    background: url(../../images/banner_Menu_1920_600.jpg);
+    background-repeat: no-repeat;
+    margin-top:-46px;
+    overflow:hidden ;
+}
+.block2_img{
+    display: flex;
+}
+.block2_img img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.content_b2{
+    position: relative;
+    left: 150px;
+    width: 450px;
+   
+}
+.content_b2 h1{
+    margin-top: 150px;
+}
+.heading{
+ font-size: 42px;
+ font-family: var(--Avenir-medium);
+ color: var( --menu-color);
+ margin-bottom: 50px;
+}
+.content_b2 p{
+    font-family: var( --Avenir-Roman);
+    color: var( --menu1-para);
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    width:fit-content;
+}
+.menu-btn{
+    border: none;
+    margin-left: -10px;
+
+}
+.menu-btn:after{
+    position: absolute;
+    left: 78px;
+    top: 415px;
+}

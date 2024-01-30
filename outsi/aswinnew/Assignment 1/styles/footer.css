@@ -1,0 +1,108 @@
+/* Footer 1 */
+
+.footer-1 {
+    padding: 50px 0;
+    background-color: var(--color-404041);
+}
+
+.footer-1 .footer-left,
+.footer-1 .footer-center {
+    border-right: 1px solid var(--color-f4f0ea);
+}
+
+.footer-1 .footer-left > div {
+    gap: 15px;
+    width: fit-content;
+}
+
+.footer-1 .footer-left > div > a {
+    font-size: 15px;
+    color: var(--color-ffffff);
+}
+
+.footer-1 .footer-center > div {
+    gap: 20px;
+    padding: 0 25px 0 50px;
+}
+
+.footer-1 .footer-center > div > span {
+    font-size: 16px;
+    color: var(--color-ffffff);
+    font-family: Avanir-Black;
+}
+
+.icon-group {
+    gap: 10px;
+}
+
+.icon-group .icon-container {
+    width: 50px;
+    height: 50px;
+}
+
+#skype {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/social_media.png");
+}
+
+#facebook {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/social_media.png");
+    background-position: 151px 0;
+}
+
+#youtube {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/social_media.png");
+    background-position: 99px 0;
+}
+
+#wifi {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/social_media.png");
+    background-position: 49px 0;
+}
+
+.footer-1 .footer-right {
+    padding-left: 50px;
+}
+
+.footer-right span {
+    font-size: 16px;
+    color: var(--color-ffffff);
+    font-family: Avanir-Black;
+}
+
+.footer-1 .footer-right form > div {
+    gap: 10px;
+}
+
+.footer-right input {
+    font-size: 13px;
+    max-width: 230px;
+    font-family: Avanir-Book;
+}
+
+.footer-right button[type="submit"] {
+    font-size: 12px;
+    padding: 10px 15px;
+    color: var(--color-ffffff);
+    background-color: transparent;
+    border: 1px solid var(--color-ffffff);
+}
+
+/* Footer 2 */
+.footer-2 {
+    min-height: 50px;
+    background-color: var(--color-e6e7e8);
+}
+
+.footer-2 p {
+    font-size: 14px;
+    color: var(--color-59595c);
+    font-family: Avanir-Roman;
+}

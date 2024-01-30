@@ -1,0 +1,13 @@
+/* Media query for smaller screens */
+@media (max-width: 768px){
+    .row-slider{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .content-b1{
+        margin-left: 1rem;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,19 @@
+.content_b1{
+    top:150px;
+    left:30px;
+}
+.content_b1 h2{
+    font-size: 25px;
+    line-height:30px;
+}
+.content_b1 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.main-btn::after{
+    top: 285px;
+    left:95px;
+}
+.block_1{
+    overflow: hidden;
+}

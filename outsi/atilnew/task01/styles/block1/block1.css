@@ -1,0 +1,75 @@
+
+  @font-face {
+    font-family: Anvir;
+    src: url(/fonts/Avenir-Medium.ttf)
+}
+.carousal {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),url('/assets/images/banner_1920_550.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+    margin-top: 100px;
+}
+.row-slider{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.col-slider{
+    width: 100%;
+    margin-right: 30px;
+    margin-left: 6rem;
+}
+.slider-header-font{
+    font-family: Anvir;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--background-lite);
+    
+}
+.slider-content-font{
+    font-family: Anvir;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--background-lite);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.slick-dots li button  {
+    font-family: slick !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    position: absolute !important;
+    top: -15px !important;
+    width: 12px !important;
+    height: 12px !important;
+    border: 1px solid var(--background-lite) !important;
+    border-radius: 50% !important;
+}
+
+
+.slick-dots {
+    bottom: 6px !important;
+
+}
+
+.slick-dots li {
+    width: auto !important;
+    margin: 0 10px !important;
+
+    
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--brand-accent) !important;
+    border-color: var(--brand-accent) !important;
+
+}
+
+.slick-dots li button:before {
+    content: "" !important;
+
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Avenir-Black";
+    src: url(../fonts/avenir-black.ttf);
+}
+@font-face {
+    font-family: "Avenir-roman";
+    src: url(../fonts/avenir-roman.ttf);
+}
+@font-face {
+    font-family: "Avenir-book";
+    src: url(../fonts/AvenirBook.ttf);
+}
+@font-face {
+    font-family: "Avenir-light";
+    src: url(../fonts/AvenirLight.ttf);
+}
+@font-face {
+    font-family: "Avenir-medium";
+    src: url(../fonts/AvenirMedium.ttf)
+}

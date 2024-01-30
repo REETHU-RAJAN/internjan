@@ -1,0 +1,35 @@
+/* Media query for smaller screens */
+@media (max-width: 768px){
+    .row-block-2{
+        display: block;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .col-block-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .col-block-1 img{
+        width: 250px;
+    }
+    .col-block-2{
+        width: 100%;
+        margin: 8px;
+    }
+    .head-block2{
+        font-size: 42px;
+        color: var(--menu-color);
+        margin-bottom: 15px;
+    }
+    .block-heading{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+}

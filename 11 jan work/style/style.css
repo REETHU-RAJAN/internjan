@@ -1,0 +1,12 @@
+#fot{
+    background-color: cornflowerblue;
+}
+#end{
+    display: flex;
+    justify-content: right;
+    flex: 1;
+
+}
+.pagination{
+    background-color: cornflowerblue;
+}

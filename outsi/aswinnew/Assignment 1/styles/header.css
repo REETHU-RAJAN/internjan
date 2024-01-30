@@ -1,0 +1,155 @@
+/* Header Section */
+
+.header-section {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--color-ffffff);
+    z-index: 9;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-right {
+    margin-bottom: 20px;
+}
+
+.navbar-right a {
+    color: var(--color-41b6e6);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#hidden {
+    width: 90px;
+    display: none;
+}
+
+#search-icon {
+    margin-left: 50px !important;
+    display: block;
+}
+
+#search-bar {
+    display: none;
+}
+
+.search-icon {
+    width: 45px;
+    height: 45px;
+    background-color: var(--color-41b6e6);
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.search-bar {
+    top: 60px;
+    right: 15px;
+}
+
+.search-bar > div input {
+    padding: 3px 5px;
+    width: 130px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #000;
+    font-size: 12px;
+    height: 40px;
+}
+
+.search-bar > div .close-icon {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--color-41b6e6);
+    border-radius: 10px;
+    cursor: pointer;
+    display: none !important;
+}
+
+.menu-close {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none !important;
+}
+
+.menu-icon i {
+    font-size: 20px;
+    color: var(--color-41b6e6);
+}
+
+#menu-list.inline-flex {
+    display: inline-flex !important;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Carousel Section */
+
+.carousel-section {
+    margin-top: 100px;
+    height: 550px;
+    color: var(--color-ffffff);
+}
+
+.slider-container {
+    height: 554px !important;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/banner_1920_550.jpg");
+}
+
+.slider-container h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--color-ffffff);
+}
+
+.sliderl-container p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.slick-next.slick-arrow {
+    display: none;
+}
+
+.slick-dots {
+    bottom: 6px;
+}
+
+.slick-dots li {
+    width: auto;
+    margin: 0 10px;
+}
+
+.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--color-ffffff);
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--color-41b6e6);
+    border-color: var(--color-41b6e6);
+}
+
+.slick-dots li button:before {
+    content: "";
+}

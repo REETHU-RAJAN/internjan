@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/font-main.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/colour.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/block1/block1.css">
+    <link rel="stylesheet" href="./css/block2/block2.css">
+    <link rel="stylesheet" href="./css/block3/block3.css">
+    <link rel="stylesheet" href="./css/block4/block4.css">
+    <link rel="stylesheet" href="./css/block5/block5.css">
+    <link rel="stylesheet" href="./blocku/block-3.css">
+
+
+
+
+    <!-- MEDIA QUERY -->
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/header/header-mob.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"
+        href="./css/header/header-tab.css">
+    <link rel="stylesheet" media="screen and (min-width:992px) and (max-width:1300px)"
+        href="./css/header/header-desk.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/block1/block1-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"
+        href="./css/block1/block1-tab.css">
+    <link rel="stylesheet" media="screen and (min-width:992px) and (max-width:1300px)"
+        href="./css/block1/block1-desk.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/block2/block2-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"
+        href="./css/block2/block2-tab.css">
+    <link rel="stylesheet" media="screen and (min-width:992px) and (max-width:1300px)"
+        href="./css/block2/block2-desk.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/block3/block3.mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"
+        href="./css/block3/block3.tab.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/block4/block4.mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"
+        href="./css/block4/block4.tab.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/block5/block5.mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)"
+        href="./css/block5/block5.tab.css">
+
+
+
+
+
+
+    <title>UI DESIGN </title>
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png">
+</head>
+
+<body>
+    <!-- header  starts -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid contaner_fluid1">
+                <a class="navbar-brand logo" href="#">
+                    <img src="./images/Logo.png" alt="Bootstrap" width="200" height="74">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 5</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex form-full" role="search">
+                        <input class="form-control me-2 form-input" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="search_img" onclick="display()"></div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header ends -->
+    <!-- block1 starts -->
+    <section class="mainblock_section">
+        <div class="main_block1">
+            <div class="block1">
+                <div class="block1_img">
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="content_b1">
+                    <h2>Lorem ipsum dolor sit amet<br>consectetuer adipiscing.</h2>
+                    <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br>aliquam erat volutpat.
+                        Ut
+                        wisi enim ad minim veniam, quis nostrud<br>
+                        exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comm..</p>
+                    <div class="btns">
+                        <button class="main-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block1">
+                <div class="block1_img">
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="content_b1">
+                    <h2>Lorem ipsum dolor sit amet<br>consectetuer adipiscing.</h2>
+                    <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br>aliquam erat volutpat.
+                        Ut
+                        wisi enim ad minim veniam, quis nostrud<br>
+                        exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comm..</p>
+                    <div class="btns">
+                        <button class="main-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block1">
+                <div class="block1_img">
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="content_b1">
+                    <h2>Lorem ipsum dolor sit amet<br>consectetuer adipiscing.</h2>
+                    <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br>aliquam erat volutpat.
+                        Ut
+                        wisi enim ad minim veniam, quis nostrud<br>
+                        exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comm..</p>
+                    <div class="btns">
+                        <button class="main-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block1">
+                <div class="block1_img">
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="content_b1">
+                    <h2>Lorem ipsum dolor sit amet<br>consectetuer adipiscing.</h2>
+                    <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br>aliquam erat volutpat.
+                        Ut
+                        wisi enim ad minim veniam, quis nostrud<br>
+                        exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comm..</p>
+                    <div class="btns">
+                        <button class="main-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="block2_main">
+        <div class="block2">
+            <div class="block2_img">
+                <img src="./images/logo_watermark.png" alt="">
+                <div class="content_b2">
+                    <h1 class="heading">MENU</h1>
+                    <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore<br>magna aliquam erat volutpat. Ut wisi enim ad minim veniam,<br>quis nostrud
+                        exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+                        vel eu</P>
+                    <div class="btns menu-btn">
+                        <button class="main-btn menu-btn">learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- block 3 starts -->
+    <section>
+        <div class="block3">
+            <h1 class="heading">MENU 1</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="block3_lh_main">
+                            <div class="row">
+                                <div class="pub_img">
+                                    <img src="./images/publication.png" alt="">
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="block_3_lh_img">
+                                        <img src="./images/274_355.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="block3_lh_rh_head">
+                                        <p>LOREM IPSUM</p>
+                                    </div>
+                                    <div class="block3_lh_rh_para">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euis mod tincidunt ut laoreet</p>
+                                    </div>
+                                    <div class="block_3_lh_rh_para2">
+                                        <a href="#">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+                                            vel</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btns menu1_btn">
+                            <button class="main-btn menu1">LEARN MORE <div></div></button>
+                        </div>
+                    </div>
+                    <div class="block3_rh_main2 col-lg-5 col-md-12">
+                        <div class="block3_rh_main">
+                            <div class="rh_image">
+                                <img src="./images/198_256_1.jpg">
+                            </div>
+                            <div class="block3_rh_content_main">
+                                <div class="block3_rh_content">
+                                    <div class="block3_rh_heading">LOREM</div>
+                                    <div class="block3_rh_para">
+                                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btns menu1_rhbtn ">
+                                <button class="main-btn menu1 menu1_rh ">LEARN MORE</button>
+                            </div>
+                        </div>
+
+                        <div class="block3_rh_main">
+                            <div class="rh_image">
+                                <img src="./images/198_256_1.jpg">
+                            </div>
+                            <div class="block3_rh_content_main">
+                                <div class="block3_rh_content">
+                                    <div class="block3_rh_heading">LOREM</div>
+                                    <div class="block3_rh_para">
+                                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btns menu1_rhbtn ">
+                                <button class="main-btn menu1 menu1_rh ">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <button class="main-btn block3lhbtn block3_viewall">VIEW ALL</button>
+            </div>
+        </div>
+    </section>
+    <!-- block 3 ends -->
+    <!-- block4 starts -->
+    <section>
+        <div class="block4">
+            <h1 class=" heading head_block3">MENU 2</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="block4_lh">
+                        <div class="block4_lhimg"></div>
+                        <div class="block4lh_content">
+                            <h4>LOREM IPSUM | MAR 2020</h4>
+                            <div class="block3_bodylh-1para block4_bodylh-1para">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit,
+                                sed diam
+                                nonummy nibh..</div>
+                        </div>
+                        <div class="btns">
+                            <button class="main-btn block3lhbtn block4lhbtn">Lean more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="block4_rh">
+                        <div class="card first_card">
+                            <img src="./images/232_150_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body block4_rh_content">
+                                <h4>LOREM IPSUM | MAR 2020</h4>
+                                <div class="block4_rh_firstcard_para">Lorem ipsum dolor sit amet, consecte tuer
+                                    adipiscing elit, sed
+                                    diam nonum...</div>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <button class="main-btn block3lhbtn block4_rh_firstcard_btn">Lean more</button>
+                        </div>
+
+                        <div class="card second_card">
+                            <img src="./images/232_150_2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body block4_rh_content">
+                                <h4>LOREM IPSUM | MAY 2020</h4>
+                                <div class="block4_rh_firstcard_para">Tamcorper suscipit lobortis nisl ut aliquipexea
+                                    comm odo
+                                    consequat... </div>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <button class="main-btn block3lhbtn block4_rh_secondcard_btn">Lean more</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="btns">
+                <button class="main-btn block3lhbtn block3_viewall block4_viewall">VIEW ALL</button>
+            </div>
+        </div>
+    </section>
+    <!-- block4 ends -->
+    <!-- block 5 starts -->
+    <section>
+        <div class="block5">
+            <div class="row">
+                <div class="col">
+                    <div class="block5lh">
+                        <h1 class="heading heading_block5">MENU 3</h1>
+                        <div class="block5_lhcontent">
+                            <div class="block5_lh_lhcontent">
+                                <h4>MAR</h4>
+                                <p>18</p>
+                            </div>
+                            <div class="block5_lh_rhcontent">
+                                <div class="block3_bodylh-1para block5_lh_rh_p">Lorem ipsum dolor sit amet, consecte tur
+                                    adipiscing
+                                    elit, sed do eiusmod</div>
+                                <div class="date">13 -16 AUG 2020 | CAPE TOW</div>
+                            </div>
+                        </div>
+                        <hr class="block_5_hr">
+
+                        <div class="block5_lhcontent block5_lh_rhcontent2">
+                            <div class="block5_lh_lhcontent">
+                                <h4>MAR</h4>
+                                <p>22</p>
+                            </div>
+                            <div class="block5_lh_rhcontent ">
+                                <div class="block3_bodylh-1para block5_lh_rh_p">Lorem ipsum dolor sit amet, consecte tur
+                                    adipiscing
+                                    elit, sed do eiusmod</div>
+                                <div class="date">13 -16 AUG 2020 | CAPE TOW</div>
+                            </div>
+                        </div>
+                        <hr class="block_5_hr">
+
+                        <div class="block5_lhcontent block5_lh_rhcontent2">
+                            <div class="block5_lh_lhcontent">
+                                <h4>APR</h4>
+                                <p>14</p>
+                            </div>
+                            <div class="block5_lh_rhcontent">
+                                <div class="block3_bodylh-1para block5_lh_rh_p">Lorem ipsum dolor sit amet, consecte tur
+                                    adipiscing
+                                    elit, sed do eiusmod</div>
+                                <div class="date">13 -16 AUG 2020 | CAPE TOW</div>
+                            </div>
+                        </div>
+                        <hr class="block_5_hr">
+                        <div class="btns">
+                            <button class="main-btn block5_viewall">VIEW ALL</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="block5_rh">
+                        <h1 class="heading heading_block5">MENU 4</h1>
+                        <div class="block5_rhcontent">
+                            <div class="block5_rh_img">
+                                <img src="./images/172_112_1.jpg">
+                            </div>
+                            <div class="block5_rh_rhside">
+                                <div class="block5_rh_para">Quis imperdiet massa tincidunt nunc amet nisl purus in
+                                    mollis nunc sed id
+                                    semper risus..</div>
+                                <div class="date date_rh">26 AUGUST 2020</div>
+                            </div>
+                        </div>
+                        <hr class="block_5_hr">
+
+                        <div class="block5_rhcontent block5_rhcontent2 ">
+                            <div class="block5_rh_img">
+                                <img src="./images/172_112_2.jpg">
+                            </div>
+                            <div class="block5_rh_rhside">
+                                <div class="block5_rh_para">Quis imperdiet massa tincidunt nunc amet nisl purus in
+                                    mollis nunc sed id
+                                    semper risus..</div>
+                                <div class="date date_rh">26 AUGUST 2020</div>
+                            </div>
+                        </div>
+                        <hr class="block_5_hr">
+
+                        <div class="block5_rhcontent block5_rhcontent2">
+                            <div class="block5_rh_img">
+                                <img src="./images/172_112_3.jpg">
+                            </div>
+                            <div class="block5_rh_rhside">
+                                <div class="block5_rh_para">Quis imperdiet massa tincidunt nunc amet nisl purus in
+                                    mollis nunc sed id
+                                    semper risus..</div>
+                                <div class="date date_rh">26 AUGUST 2020</div>
+                            </div>
+                        </div>
+                        <hr class="block_5_hr">
+                        <div class="btns">
+                            <button class="main-btn block5_viewall block5_viewall_mob">VIEW ALL</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- block 5 ends -->
+
+<!-- Block-3 & 4 -->
+<section class="block-3" id="block-3">
+    <div class="col-12 d-flex flex-column flex-sm-row">
+        <div class="col-12 col-sm-6 ps-lg-5 block-3-container d-flex justify-content-end">
+            <div class="inner-container">
+                <h1 class="text-center text-sm-start">MENU 3</h1>
+                <div>
+                    <div class="calender-container d-flex flex-column flex-lg-row">
+                        <div class="container-left d-flex justify-content-center d-sm-block">
+                            <div class="date d-flex flex-column">
+                                <span class="d-flex justify-content-center align-items-center">MAR</span>
+                                <span class="d-flex justify-content-center align-items-center">18</span>
+                            </div>
+                        </div>
+                        <div class="container-right">
+                            <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod.</p>
+                            <span>13 -16 AUG 2020 | CAPE TOWN</span>
+                        </div>
+                    </div>
+                    <div class="calender-container d-flex flex-column flex-lg-row">
+                        <div class="container-left d-flex justify-content-center d-sm-block">
+                            <div class="date d-flex flex-column">
+                                <span class="d-flex justify-content-center align-items-center">MAR</span>
+                                <span class="d-flex justify-content-center align-items-center">22</span>
+                            </div>
+                        </div>
+                        <div class="container-right">
+                            <p>
+                                Tristique senectus et netus et. cursus sit amet dictum sit amet justo donec
+                                enimturpis...
+                            </p>
+                            <span>27 AUG 2020 | FRANKFURT</span>
+                        </div>
+                    </div>
+                    <div class="calender-container d-flex flex-column flex-lg-row">
+                        <div class="container-left d-flex justify-content-center d-sm-block">
+                            <div class="date d-flex flex-column">
+                                <span class="d-flex justify-content-center align-items-center">APR</span>
+                                <span class="d-flex justify-content-center align-items-center">14</span>
+                            </div>
+                        </div>
+                        <div class="container-right">
+                            <p>A erat nam at lectus urna duis convallis convallis tellus.</p>
+                            <span>06 -14 SEP 2020 | MELBOURNE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="d-flex button-5">
+                        <span>VIEW ALL</span>
+                        <div></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 pe-lg-5 block-4-container">
+            <div class="inner-container">
+                <h1 class="text-center text-sm-start">MENU 4</h1>
+                <div>
+                    <div class="data-container d-flex flex-column flex-lg-row">
+                        <div class="left-container d-flex justify-content-center d-sm-block">
+                            <img src="./images/172_112_1.jpg" alt="" class="img-fluid" />
+                        </div>
+                        <div class="right-container">
+                            <p>
+                                Quis imperdiet massa tincidunt nunc amet nisl purus in mollis nunc sed id semper
+                                risus...
+                            </p>
+                            <span>26 AUGUST 2020</span>
+                        </div>
+                    </div>
+                    <div class="data-container d-flex flex-column flex-lg-row">
+                        <div class="left-container d-flex justify-content-center d-sm-block">
+                            <img src="./images/172_112_2.jpg" alt="" class="img-fluid" />
+                        </div>
+                        <div class="right-container">
+                            <p>Dignissim enim sit amet venenatis urna.</p>
+                            <span>12 AUGUST 2020</span>
+                        </div>
+                    </div>
+                    <div class="data-container d-flex flex-column flex-lg-row">
+                        <div class="left-container d-flex justify-content-center d-sm-block">
+                            <img src="./images/172_112_3.jpg" alt="" class="img-fluid" />
+                        </div>
+                        <div class="right-container">
+                            <p>
+                                Amet nisl purus in mollis nunc sed id semper risus. Dignissim enim sit amet ven...
+                                urna.
+                            </p>
+                            <span>21 JULY 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="d-flex button-5">
+                        <span>VIEW ALL</span>
+                        <div></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+        integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./javascript/main.js"></script>
+
+</body>
+
+</html>

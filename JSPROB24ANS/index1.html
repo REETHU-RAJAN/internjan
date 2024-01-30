@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Selector</title>
+</head>
+<body>
+
+<label for="siteSelector">Select a site:</label>
+<button>try it</button>
+<select id="siteSelector" onchange="loadHomePage()">
+  <option value="" disabled selected>Select a site</option>
+  <option value="https://www.example.com">Example Site</option>
+  <option value="https://www.google.com">Google</option>
+  <option value="https://www.github.com">GitHub</option>
+  <!-- Add more options as needed -->
+</select>
+
+<div id="homePageContainer">
+  <!-- The home page content will be loaded here -->
+</div>
+
+<script>
+  function loadHomePage() {
+    const siteSelector = document.getElementById('siteSelector');
+    const homePageContainer = document.getElementById('homePageContainer');
+    
+    // Get the selected value from the dropdown
+    const selectedSite = siteSelector.value;
+
+    // Clear previous content
+    homePageContainer.innerHTML = '';
+
+    // Load the home page content if a site is selected
+    if (selectedSite) {
+      // Create an iframe to display the home page
+      const iframe = document.createElement('iframe');
+      iframe.src = selectedSite;
+      iframe.style.width = '100%';
+      iframe.style.height = '80vh';
+
+      // Append the iframe to the container
+      homePageContainer.appendChild(iframe);
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lorem</title>
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <!-- Slick -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+            integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/variable.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/header-small.css" />
+        <link rel="stylesheet" href="styles/header-medium.css" />
+        <link rel="stylesheet" href="styles/block.css" />
+        <link rel="stylesheet" href="styles/block-small.css" />
+        <link rel="stylesheet" href="styles/block-1.css " />
+        <link rel="stylesheet" href="styles/block-1-small.css" />
+        <link rel="stylesheet" href="styles/block-2.css " />
+        <link rel="stylesheet" href="styles/block-2-small.css " />
+        <link rel="stylesheet" href="styles/block-3.css " />
+        <link rel="stylesheet" href="styles/block-3-small.css " />
+        <link rel="stylesheet" href="styles/footer.css " />
+        <link rel="stylesheet" href="styles/footer-medium.css " />
+        <link rel="stylesheet" href="styles/footer-small.css " />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header-section">
+            <div class="container-fluid px-lg-5">
+                <div class="navbar d-flex justify-content-between p-0">
+                    <div class="navbar-left">
+                        <img src="/images/Logo.png" alt="logo" />
+                    </div>
+                    <div class="navbar-right mt-auto d-flex">
+                        <div
+                            class="d-flex gap-4 gap-lg-5 me-4 me-lg-5 align-items-end me-4 me-lg-5 flex-column flex-md-row d-none d-md-inline-flex menu-list"
+                            id="menu-list"
+                        >
+                            <a href="#block" onclick="closeNav()">MENU</a>
+                            <a href="#block-1" onclick="closeNav()">MENU 1</a>
+                            <a href="#block-2" onclick="closeNav()">MENU 2</a>
+                            <a href="#block-3" onclick="closeNav()">MENU 3</a>
+                            <a href="#block-3" onclick="closeNav()">MENU 4</a>
+                            <a href="#" onclick="closeNav()">MENU 5</a>
+                            <div
+                                class="search-icon d-flex justify-content-center align-items-center d-none"
+                                onclick="openNavSearch()"
+                            >
+                                <i class="bi bi-search text-white fs-5"></i>
+                            </div>
+                            <div
+                                class="menu-close d-flex justify-content-center align-items-center"
+                                onclick="closeNav()"
+                                id="menu-close"
+                            >
+                                <i class="bi bi-x-lg fs-5"></i>
+                            </div>
+                        </div>
+                        <div id="hidden"></div>
+                        <div class="w-auto position-relative" id="search-icon">
+                            <div
+                                class="search-icon d-flex justify-content-center align-items-center position-absolute"
+                                onclick="openSearch()"
+                            >
+                                <i class="bi bi-search text-white fs-5"></i>
+                            </div>
+                        </div>
+                        <div
+                            class="menu-icon d-flex justify-content-center align-items-center"
+                            id="menu-icon"
+                            onclick="openNav()"
+                        >
+                            <i class="bi bi-list"></i>
+                        </div>
+
+                        <div class="w-auto position-relative ms-5" id="search-bar">
+                            <div class="search-bar position-absolute">
+                                <div class="d-flex gap-2">
+                                    <input type="text" placeholder="Search..." id="searchBar" />
+                                    <div
+                                        class="d-flex justify-content-center align-items-center close-icon"
+                                        onclick="closeSearch()"
+                                    >
+                                        <i class="bi bi-x-lg fs-5 text-danger"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Carousel -->
+        <section class="carousel-section">
+            <div class="carousel-container h-100" id="carousel">
+                <div class="container-fluid px-lg-5 slider-container h-100">
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center h-100">
+                        <div class="d-flex justify-content-center align-items-center align-items-md-start flex-column">
+                            <h1 class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                            <p class="text-center text-md-start">
+                                Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                                ut aliquip ex ea comm...
+                            </p>
+                            <div class="w-100 d-flex justify-content-center justify-content-md-start">
+                                <button class="d-flex button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-lg-5 slider-container h-100">
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center h-100">
+                        <div class="d-flex justify-content-center align-items-center align-items-md-start flex-column">
+                            <h1 class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                            <p class="text-center text-md-start">
+                                Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                                ut aliquip ex ea comm...
+                            </p>
+                            <div class="w-100 d-flex justify-content-center justify-content-md-start">
+                                <button class="d-flex button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-lg-5 slider-container h-100">
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center h-100">
+                        <div class="d-flex justify-content-center align-items-center align-items-md-start flex-column">
+                            <h1 class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                            <p class="text-center text-md-start">
+                                Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                                ut aliquip ex ea comm...
+                            </p>
+                            <div class="w-100 d-flex justify-content-center justify-content-md-start">
+                                <button class="d-flex button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-lg-5 slider-container h-100">
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center h-100">
+                        <div class="d-flex justify-content-center align-items-center align-items-md-start flex-column">
+                            <h1 class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                            <p class="text-center text-md-start">
+                                Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                                ut aliquip ex ea comm...
+                            </p>
+                            <div class="w-100 d-flex justify-content-center justify-content-md-start">
+                                <button class="d-flex button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block -->
+        <section class="block" id="block">
+            <div class="container-fluid d-flex flex-column flex-sm-row py-4 px-lg-5 h-100">
+                <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+                    <figure class="mb-0">
+                        <img src="./images/logo_watermark.png" class="img-fluid" alt="" />
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 d-flex justify-content-start align-items-center block-right ps-sm-5">
+                    <div>
+                        <h1 class="text-center text-sm-start">MENU</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            Duis autem vel eum
+                        </p>
+                        <div class="w-100 d-flex justify-content-center justify-content-sm-start">
+                            <button class="d-flex button-1">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Block-1 -->
+        <section class="block-1" id="block-1">
+            <div class="container-fluid px-lg-5">
+                <h1 class="text-center">MENU 1</h1>
+                <div class="col-12 d-flex block-1-container flex-column flex-lg-row">
+                    <div class="col-12 col-lg-6 col-xl-7 d-flex justify-content-lg-end">
+                        <div class="block-1-left px-2 px-md-5 px-lg-0">
+                            <div class="left-top">
+                                <div class="d-flex p-3 justify-content-end align-items-center mb-3">
+                                    <img src="images/publication.png" alt="" class=" " />
+                                </div>
+                                <div class="d-flex left-top-2 flex-column flex-md-row">
+                                    <div class="d-flex justify-content-center d-md-block col-12 col-md-6">
+                                        <img src="images/274_355.jpg" alt="" class="img-fluid left-image" />
+                                    </div>
+                                    <div class="d-flex align-items-center mt-4 col-12 col-md-6">
+                                        <div>
+                                            <p>LOREM IPSUM</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                                nibh euismod tincidunt ut laoreet
+                                            </p>
+                                            <p>
+                                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button class="d-flex button-2">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-5 px-5 px-lg-0">
+                        <div class="block-1-right d-flex justify-content-center d-lg-block">
+                            <div class="d-flex flex-column">
+                                <div class="right-wrapper">
+                                    <div class="d-flex right-container flex-column flex-sm-row">
+                                        <div class="right-1 d-flex justify-content-center d-sm-block">
+                                            <img src="images/198_256_2.jpg" alt="" />
+                                        </div>
+                                        <div class="right-2">
+                                            <div class="description h-100 d-flex align-items-center">
+                                                <div>
+                                                    <p>LOREM IPSUM DOLOR</p>
+                                                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <button class="d-flex button-2">LEARN MORE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-wrapper">
+                                    <div class="d-flex right-container flex-column flex-sm-row">
+                                        <div class="right-1 d-flex justify-content-center d-sm-block">
+                                            <img src="images/198_256_2.jpg" alt="" />
+                                        </div>
+                                        <div class="right-2">
+                                            <div class="description h-100 d-flex align-items-center">
+                                                <div>
+                                                    <p>LOREM IPSUM DOLOR</p>
+                                                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-end">
+                                                <button class="d-flex button-2">LEARN MORE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <button class="d-flex button-3">VIEW ALL</button>
+                </div>
+            </div>
+        </section>
+        <!-- Block-2 -->
+        <section class="block-2" id="block-2">
+            <div class="container-fluid px-lg-5">
+                <h1 class="text-center">MENU 2</h1>
+                <div class="col-12 d-flex block-2-container flex-column flex-lg-row justify-content-center">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
+                        <div class="position-relative">
+                            <div class="img-container">
+                                <img src="./images/546_354.jpg" alt="" class="img-fluid" />
+                            </div>
+                            <div class="position-absolute header-container">
+                                <span class="header">LOREM IPSUM | MAR 2020</span>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button class="d-flex button-2">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 block-2-right d-flex justify-content-center">
+                        <div class="d-flex flex-column flex-sm-row w-100">
+                            <div class="col d-flex justify-content-center ">
+                                <div class="card-container">
+                                    <div class="card rounded-0 d-block w-auto">
+                                        <img src="images/232_150_1.jpg" class="card-img-top rounded-0" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">LOREM IPSUM | MAR 2020</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonum...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="d-flex button-2">LEARN MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                                <div class="card-container">
+                                    <div class="card rounded-0 d-block">
+                                        <img src="images/232_150_2.jpg" class="card-img-top rounded-0" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">LOREM IPSUM | MAY 2020</h5>
+                                            <p class="card-text">
+                                                Tamcorper suscipit lobortis nisl ut aliquipexea comm odo consequat...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end btn-container">
+                                        <button class="d-flex button-2">LEARN MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <button class="d-flex button-3">VIEW ALL</button>
+                </div>
+            </div>
+        </section>
+        <!-- Block-3 & 4 -->
+        <section class="block-3" id="block-3">
+            <div class="col-12 d-flex flex-column flex-sm-row">
+                <div class="col-12 col-sm-6 ps-lg-5 block-3-container d-flex justify-content-end">
+                    <div class="inner-container">
+                        <h1 class="text-center text-sm-start">MENU 3</h1>
+                        <div>
+                            <div class="calender-container d-flex flex-column flex-lg-row">
+                                <div class="container-left d-flex justify-content-center d-sm-block">
+                                    <div class="date d-flex flex-column">
+                                        <span class="d-flex justify-content-center align-items-center">MAR</span>
+                                        <span class="d-flex justify-content-center align-items-center">18</span>
+                                    </div>
+                                </div>
+                                <div class="container-right">
+                                    <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod.</p>
+                                    <span>13 -16 AUG 2020 | CAPE TOWN</span>
+                                </div>
+                            </div>
+                            <div class="calender-container d-flex flex-column flex-lg-row">
+                                <div class="container-left d-flex justify-content-center d-sm-block">
+                                    <div class="date d-flex flex-column">
+                                        <span class="d-flex justify-content-center align-items-center">MAR</span>
+                                        <span class="d-flex justify-content-center align-items-center">22</span>
+                                    </div>
+                                </div>
+                                <div class="container-right">
+                                    <p>
+                                        Tristique senectus et netus et. cursus sit amet dictum sit amet justo donec
+                                        enimturpis...
+                                    </p>
+                                    <span>27 AUG 2020 | FRANKFURT</span>
+                                </div>
+                            </div>
+                            <div class="calender-container d-flex flex-column flex-lg-row">
+                                <div class="container-left d-flex justify-content-center d-sm-block">
+                                    <div class="date d-flex flex-column">
+                                        <span class="d-flex justify-content-center align-items-center">APR</span>
+                                        <span class="d-flex justify-content-center align-items-center">14</span>
+                                    </div>
+                                </div>
+                                <div class="container-right">
+                                    <p>A erat nam at lectus urna duis convallis convallis tellus.</p>
+                                    <span>06 -14 SEP 2020 | MELBOURNE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button class="d-flex button-4">VIEW ALL</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 pe-lg-5 block-4-container">
+                    <div class="inner-container">
+                        <h1 class="text-center text-sm-start">MENU 4</h1>
+                        <div>
+                            <div class="data-container d-flex flex-column flex-lg-row">
+                                <div class="left-container d-flex justify-content-center d-sm-block">
+                                    <img src="./images/172_112_1.jpg" alt="" class="img-fluid" />
+                                </div>
+                                <div class="right-container">
+                                    <p>
+                                        Quis imperdiet massa tincidunt nunc amet nisl purus in mollis nunc sed id semper
+                                        risus...
+                                    </p>
+                                    <span>26 AUGUST 2020</span>
+                                </div>
+                            </div>
+                            <div class="data-container d-flex flex-column flex-lg-row">
+                                <div class="left-container d-flex justify-content-center d-sm-block">
+                                    <img src="./images/172_112_2.jpg" alt="" class="img-fluid" />
+                                </div>
+                                <div class="right-container">
+                                    <p>Dignissim enim sit amet venenatis urna.</p>
+                                    <span>12 AUGUST 2020</span>
+                                </div>
+                            </div>
+                            <div class="data-container d-flex flex-column flex-lg-row">
+                                <div class="left-container d-flex justify-content-center d-sm-block">
+                                    <img src="./images/172_112_3.jpg" alt="" class="img-fluid" />
+                                </div>
+                                <div class="right-container">
+                                    <p>
+                                        Amet nisl purus in mollis nunc sed id semper risus. Dignissim enim sit amet ven...
+                                        urna.
+                                    </p>
+                                    <span>21 JULY 2020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button class="d-flex button-4">VIEW ALL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer-1">
+            <div class="container-fluid px-lg-5">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="footer-left col-12 col-sm-3 d-flex justify-content-start justify-content-sm-center">
+                        <div class="d-flex flex-column">
+                            <a href="#block">MENU</a>
+                            <a href="#block-1">MENU 1</a>
+                            <a href="#block-2">MENU 2</a>
+                            <a href="#block-3">MENU 3</a>
+                            <a href="#block-3">MENU 4</a>
+                            <a href="#">MENU 5</a>
+                        </div>
+                    </div>
+                    <div class="footer-center d-flex align-items-center">
+                        <div class="d-flex flex-row flex-sm-column flex-lg-row align-items-center">
+                            <span>CONNECT WITH US</span>
+                            <div class="icon-group d-flex">
+                                <div class="icon-container">
+                                    <a
+                                        href="https://twitter.com/"
+                                        class="d-flex justify-content-center align-items-center text-white h-100"
+                                    >
+                                        <span id="skype"></span>
+                                    </a>
+                                </div>
+                                <div class="icon-container">
+                                    <a
+                                        href="https://www.facebook.com/"
+                                        class="d-flex justify-content-center align-items-center text-white h-100"
+                                    >
+                                        <span id="facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="icon-container">
+                                    <a
+                                        href="https://www.youtube.com/"
+                                        class="d-flex justify-content-center align-items-center text-white h-100"
+                                    >
+                                        <span id="youtube"></span>
+                                    </a>
+                                </div>
+                                <div class="icon-container">
+                                    <a href="#" class="d-flex justify-content-center align-items-center text-white h-100">
+                                        <span id="wifi"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-right d-flex align-items-center">
+                        <div>
+                            <form action="">
+                                <span>Subscribe to our Newsletter</span>
+                                <div class="d-flex mt-3 gap-1 flex-row flex-sm-column flex-md-row">
+                                    <input type="text" placeholder="E-mail" class="p-2" />
+                                    <button type="submit">SUBSCRIBE</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="footer-2 d-flex justify-content-center align-items-center">
+            <p class="mb-0 text-center">
+                Copyright &copy dolor sit amet, consecte tuer adipiscing elit, All rights reserved. | Terms & Conditions |
+                Fraud Alert
+            </p>
+        </footer>
+        <!-- Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- Slick -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!-- Scripts -->
+        <script src="./javascript/main.js"></script>
+        <!-- Slick -->
+        <script>
+            $(document).ready(function () {
+                $("#carousel").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 6000,
+                    arrows: false,
+                    dots: true,
+                });
+            });
+        </script>
+    </body>
+</html>

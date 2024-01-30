@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Anvir;
+    src: url(/fonts/Avenir\ Black.ttf)
+}
+
+header {
+    background-color: #dfe1e1;
+    padding: 10px 20px;
+    height: 100px;
+    width: 100%;
+    position: fixed ;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 70%;
+    padding-right: 3rem;
+    margin-top: 3.4rem;
+}
+
+.nav-items a {
+    font-family: Anvir;
+    text-decoration: none;
+    color: var(--brand-accent);
+    margin: 0 15px;
+}
+
+.col-1{
+    width: 30%;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+.btn-nav{
+    background-color: var(--brand-accent);
+    border: none;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 2rem;
+}
+.fa-magnifying-glass{
+    font-size: 28px;
+    color: var(--background-lite);
+}
+.btn-nav:hover{
+    background-color: var( --brand-primary);
+}
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+#searchPopup{
+    position: absolute;
+    top: 110%;
+    left: 70%;
+}
+#searchPopup input{
+    border-radius: 10px;
+    border: none;
+    padding: 9px;
+}
+#searchPopup button{
+    background-color: var(--brand-accent);
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+    color: var(--background-lite);
+}
+.search-sm-md{
+    display: none;
+}

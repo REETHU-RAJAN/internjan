@@ -1,0 +1,63 @@
+.carousel-section {
+    margin-top: 100px;
+    height: 550px;
+    color: var(--white-color);
+    
+}
+
+.slider-container {
+    height: 554px !important;
+  
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/assets/images/banner_1920_550.jpg");
+}
+#txt1{
+    margin-left: 50px;
+}
+
+
+
+.slider-container h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--white-color);
+    
+}
+
+.sliderl-container p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    
+}
+
+.slick-next.slick-arrow {
+    display: none;
+}
+
+.slick-dots {
+    bottom: 6px;
+}
+
+.slick-dots li {
+    width: auto;
+    margin: 0 10px;
+}
+
+.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--white-color);
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--header-color);
+    border-color: var(--header-color);
+}
+
+.slick-dots li button:before {
+    content: "";
+   
+}

@@ -1,0 +1,25 @@
+
+.block3{
+    height: auto;
+}
+.block3_lh_main{
+    height: 750px;
+}
+.menu1::after{
+    top: 900px;
+    left: 91.5%;
+}
+.block3_rh_main{
+    margin-left: 150px;
+}
+.menu1_rh::after{
+    left: 100px;
+    top: 0px;
+}
+.block3_viewall{
+    margin-left: 350px;
+}
+.block3_viewall::after{
+    top: 1643px;
+    left: 430px;
+}

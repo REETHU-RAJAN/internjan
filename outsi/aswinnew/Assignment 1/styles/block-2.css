@@ -1,0 +1,83 @@
+.block-2 {
+    background-color: var(--color-f2f2f2);
+    padding: 70px 0;
+}
+
+.block-2 h1 {
+    font-size: 42px;
+    color: var(--color-0072ce);
+    margin-bottom: 50px;
+}
+
+.block-2 .img-container img {
+    width: 546px;
+    height: 354px;
+}
+
+.block-2 .header-container {
+    padding: 0 20px 30px;
+    color: var(--color-ffffff);
+    top: 240px;
+}
+
+.header-container span {
+    font-size: 13px;
+    margin-bottom: 30px;
+    font-family: Avanir-Book;
+}
+
+.header-container p {
+    font-size: 21px;
+    width: 80%;
+}
+
+.block-2-right {
+    padding-left: 80px;
+}
+
+.block-2-right div {
+    gap: 50px;
+}
+
+.block-2-container .card-container {
+    max-width: 232px;
+}
+
+.block-2-container .card {
+    border: none;
+}
+
+.block-2 .card-img-top.rounded-0 {
+    margin-bottom: 25px;
+}
+
+.block-2 .card-body {
+    padding-top: 0;
+}
+
+.block-2 .card-title {
+    font-size: 13px;
+    color: var(--color-41b6e6);
+    margin-bottom: 20px;
+    font-family: Avanir-Book;
+}
+
+.block-2 .card-text {
+    color: var(--color-6d6e70);
+}
+
+.block-2 .card {
+    min-height: 354px;
+    width: fit-content;
+}
+.block-2 .card-img-top {
+    max-width: 232px;
+    max-height: 150px;
+}
+
+@media screen and (max-width: 992px) {
+    .block-2-right {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+}
